@@ -98,4 +98,10 @@
     XCTAssertNotNil(sut, @"The object to test must be created in setUp.");
 }
 
+- (void) testAssessmentCalculation {
+    sut.motivation = @10;
+    sut.destructionPower = @5;
+    XCTAssertEqual([sut.assessment unsignedIntegerValue], (NSUInteger)7.5, @"Assessment must be calculated.");
+}
+
 @end

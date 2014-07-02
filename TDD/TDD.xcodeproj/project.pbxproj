@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C8D0BF71963EF680074EADA /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D0BF61963EF680074EADA /* Agent.m */; };
+		2360CB5F1963F8AE0035B1F1 /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2360CB5E1963F8AE0035B1F1 /* Agent.m */; };
+		2360CB621963F8CB0035B1F1 /* Agent+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2360CB611963F8CB0035B1F1 /* Agent+Model.m */; };
 		8C8D0BFC1963F0910074EADA /* AgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D0BFB1963F0910074EADA /* AgentTests.m */; };
 		8C8D0BFD1963F45D0074EADA /* TDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7058B1963EE3F005154FA /* TDD.xcdatamodeld */; };
 		8CE705751963EE3F005154FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE705741963EE3F005154FA /* Foundation.framework */; };
@@ -39,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2360CB5D1963F8AE0035B1F1 /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		2360CB5E1963F8AE0035B1F1 /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
+		2360CB601963F8CB0035B1F1 /* Agent+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Agent+Model.h"; sourceTree = "<group>"; };
+		2360CB611963F8CB0035B1F1 /* Agent+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Agent+Model.m"; sourceTree = "<group>"; };
 		53D57B8BD9284B5EB5D23C72 /* Pods-TDDTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDTests.xcconfig"; path = "Pods/Pods-TDDTests.xcconfig"; sourceTree = "<group>"; };
-		8C8D0BF51963EF680074EADA /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
-		8C8D0BF61963EF680074EADA /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
 		8C8D0BFB1963F0910074EADA /* AgentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentTests.m; sourceTree = "<group>"; };
 		8CE705711963EE3F005154FA /* TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE705741963EE3F005154FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -177,9 +180,11 @@
 		8CE705B21963EE44005154FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2360CB5D1963F8AE0035B1F1 /* Agent.h */,
+				2360CB5E1963F8AE0035B1F1 /* Agent.m */,
+				2360CB601963F8CB0035B1F1 /* Agent+Model.h */,
+				2360CB611963F8CB0035B1F1 /* Agent+Model.m */,
 				8CE7058B1963EE3F005154FA /* TDD.xcdatamodeld */,
-				8C8D0BF51963EF680074EADA /* Agent.h */,
-				8C8D0BF61963EF680074EADA /* Agent.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -326,9 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE7058D1963EE3F005154FA /* TDD.xcdatamodeld in Sources */,
+				2360CB621963F8CB0035B1F1 /* Agent+Model.m in Sources */,
+				2360CB5F1963F8AE0035B1F1 /* Agent.m in Sources */,
 				8CE705831963EE3F005154FA /* main.m in Sources */,
 				8CE705871963EE3F005154FA /* RMMAppDelegate.m in Sources */,
-				8C8D0BF71963EF680074EADA /* Agent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

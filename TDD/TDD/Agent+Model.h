@@ -1,5 +1,5 @@
 //
-//  Agent.m
+//  Agent+Model.h
 //  TDD
 //
 //  Created by Jose A. Herran on 02/07/14.
@@ -8,12 +8,6 @@
 
 #import "Agent.h"
 
-
-@implementation Agent
-
-@dynamic name;
-@dynamic destructionPower;
-@dynamic motivation;
-@dynamic assessment;
+@interface Agent (Model)
 
 @end
